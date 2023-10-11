@@ -1,16 +1,16 @@
-import productImg01 from "../Images/double-sofa-01.png";
-import productImg02 from "../Images/double-sofa-02.png";
-import productImg03 from "../Images/double-sofa-03.png";
+import productImg01 from "../Images/apple-watch-fitbit.jpg";
+import productImg02 from "../Images/Olixar-navy.jpg";
+import productImg03 from "../Images/sounds-wireless-onAir.jpg";
 
-import productImg04 from "../Images/single-sofa-01.jpg";
-import productImg05 from "../Images/single-sofa-02.jpg";
-import productImg06 from "../Images/single-sofa-03.jpg";
-import productImg007 from "../Images/single-sofa-04.png";
+import productImg04 from "../Images/universal-tablet-clamp.jpg";
+import productImg05 from "../Images/apple-watch-fitbit.jpg";
+import productImg06 from "../Images/apple-watch-fitbit.jpg";
+import productImg007 from "../Images/apple-watch-fitbit.jpg";
 
-import productImg07 from "../Images/arm-chair-01.jpg";
-import productImg08 from "../Images/arm-chair-02.jpg";
-import productImg09 from "../Images/arm-chair-03.jpg";
-import productImg10 from "../Images/arm-chair-01.jpg";
+import productImg07 from "../Images/Olixar-navy.jpg";
+import productImg08 from "../Images/wireless-earbuds.jpg";
+import productImg09 from "../Images/maxlife-lighting.jpg";
+import productImg10 from "../Images/wireless-earbuds.jpg";
 
 import phone01 from "../Images/phone-01.jpg";
 import phone02 from "../Images/phone-02.jpg";
@@ -30,32 +30,32 @@ import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
-import sofaSlide from "../Images/hero-img.png";
+import sofaSlide from "../Images/car-holder.jpg";
 import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [
   {
       id: 1,
       title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      desc: "Unbeatable deals on your favorite mobile accessories! Shop now for attractive and effective mobile gadgets and receive a 50% discount on your first purchase.",
       cover: sofaSlide,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "The Latest in Mobile Tech Gear",
+      desc: "Explore the cutting-edge world of mobile technology with our newest accessories, which are designed to take your smartphone experience to the next level.",
       cover: phone08,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Enhance Your Smartphone Experience",
+      desc: "Enhance your smartphone experience with our carefully curated assortment of mobile accessories designed to improve usefulness, style, and convenience.",
       cover: wireless01,
   },
   {
       id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Must-Have Mobile Accessories",
+      desc: "Discover a handpicked range of essential mobile accessories made to improve your daily smartphone experience.",
       cover: watchSlide,
   },
 ];
@@ -90,7 +90,7 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Apple Watch fitbit ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -109,7 +109,7 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Official Samsung Silicone Cover Navy Case For Samsung Galaxy S23",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -132,7 +132,7 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Olixar True Wireless Earbuds with Charging Case",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -155,7 +155,7 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Maxlife Lightning to USB-C Adapter - For iPhones & AirPods",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
@@ -228,8 +228,8 @@ export const discoutProducts = [
 export const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
-    imgUrl: productImg01,
+    productName: "Soundz Wireless On-Ear Cushioned Headphones - Black ",
+    imgUrl: productImg03,
     category: "sofa",
     price: 193,
     shortDesc:
@@ -247,8 +247,8 @@ export const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
+    productName: "Olixar LongArm Premium Universal Tablet and Smartphone Clamp Holder ",
+    imgUrl: productImg04,
     category: "sofa",
     price: 253,
     shortDesc:
