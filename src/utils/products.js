@@ -270,7 +270,7 @@ export const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Soundz Wireless On-Ear Cushioned Headphones - Black ",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -292,7 +292,7 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Official Samsung Silicone Cover",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -314,7 +314,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Soundz Wireless On-Ear Cushioned Headphones - Black",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -337,7 +337,7 @@ export const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Apple Watch Fitbit",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -360,7 +360,7 @@ export const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Apple Watch Fitbit",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -382,7 +382,7 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Apple Watch Fitbit",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
@@ -405,7 +405,7 @@ export const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Apple Watch Fitbit",
     imgUrl: productImg007,
     category: "sofa",
     price: 173,
