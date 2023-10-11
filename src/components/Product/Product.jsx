@@ -43,7 +43,8 @@ const Product = ({title,productItem,addToCart}) => {
         <div className="price">
             <h4>${productItem.price}</h4>
             <button aria-label="Add" type="submit" className="add" onClick={() => handelAdd(productItem)}>
-                <ion-icon name="add"></ion-icon>
+                <ion-icon name="add"></ion-icon>Add to Cart
+
             </button>
         </div>
     </div>

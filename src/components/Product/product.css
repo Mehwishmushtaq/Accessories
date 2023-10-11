@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #0f3460;
+    background: #0F3460;
     padding: 3px 10px;
     font-size: 12px;
     border-radius: 50px;
@@ -51,28 +51,30 @@
 }
 
 .price button {
-    background: none;
-    color: #0f3460;
+    background: #0F3460;
+    color: #fff;
     font-size: 20px;
     transition: 0.5s;
     border: 1px solid rgb(3 0 71 / 9%);
     width: 35px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
-.price button:hover {
+/* .price button:hover {
     cursor: pointer;
-    background-color: #0f3460;
+    background-color: #0F3460;
     color: #fff;
-}
+} */
 
 button.add {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-    border-radius: 50%;
+    font-size: 16px;
+    border-radius: 5%;
+    height: 30px;
+    width: 120px;
 }
 
 .product-like {
@@ -85,7 +87,7 @@ button.add {
 }
 
 .product-like label {
-    background-color: #0f3460;
+    background-color: #0F3460;
     padding: 1px 10px;
     font-size: 12px;
     color: white;
