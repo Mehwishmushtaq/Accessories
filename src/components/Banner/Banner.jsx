@@ -1,11 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
 import productBg from "../../Images/banner-img.avif";
 import "./banner.css";
-const Banner = ({title}) => {
-    return ( 
+const Banner = ({ title, productBgImg }) => {
+    return (
         <div className="image-container">
-            <img src={productBg} alt="Product-bg" />
-            <div className="overlay">
+            <img src={productBgImg ? productBgImg : productBg} alt="Product-bg" />
+            <div className={title ? "overlay" : ''}>
                 <Container>
                     <Row>
                         <Col>

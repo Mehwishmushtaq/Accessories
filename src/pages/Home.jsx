@@ -4,6 +4,7 @@ import Section from "../components/Section"
 import { products, discoutProducts } from "../utils/products"
 import { DataContainer } from "../App"
 import SliderHome from "../components/Slider"
+import Banner from "../components/Banner/Banner";
 
 
 
@@ -24,7 +25,8 @@ const Home = () => {
       <div>
         <Section title="New Arrivals" bgColor="white" productItems={newArrivalData} addToCart={addToCart} />
       </div>
-      <img src="https://priceoye.pk/assets/images/home/dk-banner-static.jpg" alt="Your Image Description" />
+
+      <Banner productBgImg='https://priceoye.pk/assets/images/home/dk-banner-static.jpg' title='dsf' />
 
       <div>
         <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} addToCart={addToCart} />
