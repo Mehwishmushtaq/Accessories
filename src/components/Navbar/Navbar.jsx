@@ -38,7 +38,7 @@ const NavBar = () => {
         <Container className="navbar-container col-12">
           <Navbar.Brand to="/" className="col-3 justify-content-start">
             <ion-icon name="bag"></ion-icon>
-            <h1 className="logo">Gadgit Glamour</h1>
+            <h1 className="logo">Gadget Glamour</h1>
           </Navbar.Brand>
 
           <InputGroup className="col-3">

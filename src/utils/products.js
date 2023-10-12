@@ -109,7 +109,7 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Official Samsung Silicone Cover Navy Case For Samsung Galaxy S23",
+    productName: "Samsung Silicone Cover",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -132,7 +132,7 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Olixar True Wireless Earbuds with Charging Case",
+    productName: "Olixar Wireless Earbuds",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -155,7 +155,7 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Maxlife Lightning to USB-C Adapter - For iPhones & AirPods",
+    productName: "Maxlife Lightning",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
@@ -222,13 +222,78 @@ export const discoutProducts = [
     ],
     avgRating: 4.8,
   },
+  {
+    id: "01",
+    productName: "Apple Watch fitbit ",
+    imgUrl: productImg01,
+    category: "sofa",
+    price: 193,
+    discount:30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "02",
+    productName: "Smartphone Clamp Holder ",
+    imgUrl: productImg04,
+    category: "sofa",
+    price: 253,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+  {
+    id: "02",
+    productName: "Smartphone Clamp Holder ",
+    imgUrl: productImg04,
+    category: "sofa",
+    price: 253,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+
+
 
 ]
 
 export const products = [
   {
     id: "01",
-    productName: "Soundz Wireless On-Ear Cushioned Headphones - Black ",
+    productName: "Wireless On-Ear Headphones",
     imgUrl: productImg03,
     category: "sofa",
     price: 193,
@@ -247,7 +312,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Olixar LongArm Premium Universal Tablet and Smartphone Clamp Holder ",
+    productName: "Smartphone Clamp Holder ",
     imgUrl: productImg04,
     category: "sofa",
     price: 253,
@@ -270,7 +335,7 @@ export const products = [
 
   {
     id: "03",
-    productName: "Soundz Wireless On-Ear Cushioned Headphones - Black ",
+    productName: "Wireless On-Ear Headphones",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -292,7 +357,7 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Official Samsung Silicone Cover",
+    productName: "Samsung Silicone Cover",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -314,7 +379,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Soundz Wireless On-Ear Cushioned Headphones - Black",
+    productName: "Wireless On-Ear Headphones",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,

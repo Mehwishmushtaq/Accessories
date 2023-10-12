@@ -1,0 +1,13 @@
+.shop-by-brands {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-left: 20px; /* Adjust margin from the left as needed */
+  }
+  
+  .brand-image {
+    width: 80px; /* Reduce the width of each image */
+    height: 60px; /* Reduce the height of each image */
+    margin: 10px; /* Add margin to space the images */
+  }
+  
