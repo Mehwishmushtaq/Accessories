@@ -12,7 +12,7 @@ const Footer = () => {
                   <ion-icon name="bag"></ion-icon>
                   <h1>Gadget Glamour</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>Discover a world of mobile accessories, including chargers, cases, and headphones. Improve your mobile experience by partnering with us today.</p>
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>About Us</h2>

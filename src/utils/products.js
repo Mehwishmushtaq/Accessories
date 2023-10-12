@@ -63,26 +63,26 @@ export const SliderData = [
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "PTA Approved",
+    subtitle: "Mobile Phone",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
-    title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "1 Year",
+    subtitle: "Brand Warranty",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "48hr Delivery",
+    subtitle: "Open Parcel",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Free Delivery",
+    subtitle: "All Over Pakistan",
     bg: "#d6e5fb",
   },
 ];
