@@ -18,12 +18,12 @@
 }
 
 .product {
-    background: #fff;
-    padding: 20px;
-    position: relative;
-    border-radius: 8px;
-    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
-    margin: 10px;
+	background: #fff;
+	padding: 20px;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+	margin: 10px;
 }
 
 .product h3 {
@@ -35,16 +35,16 @@
 }
 
 .product .rate i {
-    font-size: 15px;
-    color: #ffcd4e;
-    margin: 5px 5px 5px 0;
+	font-size: 15px;
+	color: #ffcd4e;
+	margin: 5px 5px 5px 0;
 }
 
 .product .price {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
 }
 
 .price h4 {
@@ -54,72 +54,29 @@
     line-height: 1.2;
 }
 
-/* .price button {
-    background: #0F3460;
-    color: #fff;
-    font-size: 12px;
-    transition: 0.5s;
-    border: 1px solid rgb(3 0 71 / 9%);
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-}
- */
-/* .price button:hover {
-    cursor: pointer;
-    background-color: #0F3460;
-    color: #fff;
-} */
-
-/* button.add {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    border-radius: 5px;
-    height: 30px;
-    width: 30px;
-
-} */
-
 .product-like {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 10px;
-    opacity: 0;
-    transition: 0.5s;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px;
+	opacity: 0;
+	transition: 0.5s;
 }
 
 .product-like label {
-    background-color: #0F3460;
-    padding: 1px 10px;
-    font-size: 12px;
-    color: white;
-    border-radius: 50px;
+	background-color: #0f3460;
+	padding: 1px 10px;
+	font-size: 12px;
+	color: white;
+	border-radius: 50px;
 }
 
 .product-like ion-icon {
-    font-size: 20px;
-    margin: 10px 3px;
-    cursor: pointer;
+	font-size: 20px;
+	margin: 10px 3px;
+	cursor: pointer;
 }
 
 .product:hover .product-like {
-    opacity: 1;
+	opacity: 1;
 }
-
-/* homepage shop by brands component */
-
-.image-row {
-    display: flex; /* Display the images in a row */
-    justify-content: space-around; /* Adjust as needed to control spacing */
-    align-items: center; /* Center the images vertically */
-  }
-  
-  .brand-image {
-    width: 100px; /* Set the width of each image */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Add margin to space the images */
-  }
-  

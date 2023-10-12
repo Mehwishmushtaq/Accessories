@@ -6,8 +6,7 @@ import { Link } from "react-router-dom";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import DrawerNav from '../DrawerNav/DrawerNav';
 
 const NavBar = () => {
   const { CartItem, setCartItem } = useContext(DataContainer);
@@ -31,17 +30,18 @@ const NavBar = () => {
   return (
     <>
       <Navbar
-        fixed="top"
+        sticky="top"
         expand="md"
         className={isFixed ? "navbar fixed" : "navbar"}
       >
+        <DrawerNav />
         <Container className="navbar-container col-12">
-          <Navbar.Brand to="/" className="col-4 justify-content-start">
+          <Navbar.Brand to="/" className="col-3 justify-content-start">
             <ion-icon name="bag"></ion-icon>
             <h1 className="logo">Gadget Glamour</h1>
           </Navbar.Brand>
 
-          <InputGroup className="col-4">
+          <InputGroup className="col-3">
             <Form.Control
               placeholder="Search Gadgets"
               aria-label="Search Gadgets"
@@ -92,22 +92,11 @@ const NavBar = () => {
       </Navbar>
       <hr className="m-0" />
       <Navbar
-        fixed="top"
+        sticky="top"
         expand="sm"
         className={isFixed ? "navbar fixed" : "navbar"}
       >
         <Container className="navbar-container">
-          <DropdownButton id="dropdown-item-button" size="lg" title="Shop By Category">
-            <Dropdown.Item as="button">Headphones</Dropdown.Item>
-            <Dropdown.Item as="button">Data Cables</Dropdown.Item>
-            <Dropdown.Item as="button">Power Banks</Dropdown.Item>
-            <Dropdown.Item as="button">Headphones</Dropdown.Item>
-            <Dropdown.Item as="button">Data Cables</Dropdown.Item>
-            <Dropdown.Item as="button">Power Banks</Dropdown.Item>
-            <Dropdown.Item as="button">Headphones</Dropdown.Item>
-            <Dropdown.Item as="button">Data Cables</Dropdown.Item>
-            <Dropdown.Item as="button">Power Banks</Dropdown.Item>
-          </DropdownButton>
           {/* Media cart and toggle */}
           <div className="d-flex">
             <div className="media-cart">
@@ -134,38 +123,64 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Item>
-                <Link aria-label="Go to Home Page" className="navbar-link" to="/" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
                   <span className="nav-link-label">Home</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link aria-label="Go to Featured products Page" className="navbar-link" to="/featured products" onClick={() => setExpand(false)}>
-                  <span className="nav-link-label">Featured Products</span>
+                <Link aria-label="Go to Featured products Page" className="navbar-link row" to="/featured products" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Products</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link aria-label="Go to All products Page" className="navbar-link" to="/shop" onClick={() => setExpand(false)}>
-                  <span className="nav-link-label">All Products</span>
+                <Link aria-label="Go to All products Page" className="navbar-link row" to="/all products" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Products</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link aria-label="Go to Contact Us Page" className="navbar-link" to="/contact us" onClick={() => setExpand(false)}>
-                  <span className="nav-link-label">Contact Us</span>
+                <Link aria-label="Go to Contact Us Page" className="navbar-link row" to="/contact us" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Contact</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link aria-label="Go to About Us Page" className="navbar-link" to="/about us" onClick={() => setExpand(false)}>
-                  <span className="nav-link-label">About Us</span>
+                <Link aria-label="Go to About Us Page" className="navbar-link row" to="/about us" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">About</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link aria-label="Go to Cart Page" className="navbar-link" to="/cart" onClick={() => setExpand(false)}>
+                <Link aria-label="Go to Cart Page" className="navbar-link row" to="/cart" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
                   <span className="nav-link-label">Cart</span>
+                </Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Home</span>
+                </Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Link aria-label="Go to Featured products Page" className="navbar-link row" to="/featured products" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Products</span>
+                </Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Link aria-label="Go to All products Page" className="navbar-link row" to="/all products" onClick={() => setExpand(false)}>
+                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Products</span>
                 </Link>
               </Nav.Item>
             </Nav>
