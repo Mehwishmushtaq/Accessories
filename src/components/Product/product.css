@@ -1,14 +1,14 @@
 .product img {
-    width: 100%;
-    height: 200px !important;
+    width: 80%;
+    height: 80px !important;
     object-fit: contain;
     cursor: pointer;
 }
 
 .discount {
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    right: 0;
     background: #0F3460;
     padding: 3px 10px;
     font-size: 12px;
@@ -29,8 +29,9 @@
 .product h3 {
     margin: 10px 0;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     cursor: pointer;
+    line-height: 1.2;
 }
 
 .product .rate i {
@@ -47,35 +48,39 @@
 }
 
 .price h4 {
-    margin: 20px 0 10px;
+    margin: 10px 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
-.price button {
+/* .price button {
     background: #0F3460;
     color: #fff;
-    font-size: 20px;
+    font-size: 12px;
     transition: 0.5s;
     border: 1px solid rgb(3 0 71 / 9%);
     width: 35px;
     height: 35px;
     border-radius: 50%;
 }
-
+ */
 /* .price button:hover {
     cursor: pointer;
     background-color: #0F3460;
     color: #fff;
 } */
 
-button.add {
+/* button.add {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     border-radius: 5px;
     height: 30px;
-    width: 120px;
-}
+    width: 30px;
+
+} */
 
 .product-like {
     position: absolute;
@@ -103,3 +108,18 @@ button.add {
 .product:hover .product-like {
     opacity: 1;
 }
+
+/* homepage shop by brands component */
+
+.image-row {
+    display: flex; /* Display the images in a row */
+    justify-content: space-around; /* Adjust as needed to control spacing */
+    align-items: center; /* Center the images vertically */
+  }
+  
+  .brand-image {
+    width: 100px; /* Set the width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add margin to space the images */
+  }
+  
