@@ -12,6 +12,9 @@ const NavBar = () => {
   const { CartItem, setCartItem } = useContext(DataContainer);
   const [expand, setExpand] = useState(false);
   const [isFixed, setIsFixed] = useState(true);
+  const noBoxShadowStyle = {
+    boxShadow: 'none',
+  };
   // fixed Header
   function scrollHandler() {
     if (window.scrollY >= 100) {
@@ -30,9 +33,10 @@ const NavBar = () => {
   return (
     <>
       <Navbar
-        sticky="top"
+        fixed="top"
         expand="md"
-        className={isFixed ? "navbar fixed" : "navbar"}
+        style={noBoxShadowStyle}
+        className={isFixed ? "navbar fixed" : "navbar shadow-none"}
       >
         <DrawerNav />
         <Container className="navbar-container col-12">
@@ -92,7 +96,6 @@ const NavBar = () => {
       </Navbar>
       <hr className="m-0" />
       <Navbar
-        sticky="top"
         expand="sm"
         className={isFixed ? "navbar fixed" : "navbar"}
       >
