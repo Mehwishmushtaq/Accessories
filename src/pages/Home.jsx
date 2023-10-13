@@ -20,20 +20,20 @@ const Home = () => {
       <SliderHome />
       <Wrapper />
       <div>
-        <Section title="Big Discount" bgColor="#f6f9fc" productItems={discoutProducts} addToCart={addToCart} />
+        <Section title="Big Discount" bgColor="#BDC581" productItems={discoutProducts} addToCart={addToCart} />
       </div>
       <div>
-        <Section title="New Arrivals" bgColor="white" productItems={newArrivalData} addToCart={addToCart} />
+        <Section title="New Arrivals" bgColor="#BDC581" productItems={newArrivalData} addToCart={addToCart} />
       </div>
 
       <Banner productBgImg='https://priceoye.pk/assets/images/home/dk-banner-static.jpg' />
 
       <div>
-        <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} addToCart={addToCart} />
+        <Section title="Best Sales" bgColor="#BDCF81" productItems={bestSales} addToCart={addToCart} />
       </div>
 
       <div>
-        <Section title="Shop By Brands" bgColor="white" productItems={bestSales} />
+        <Section title="Shop By Brands" bgColor="#BDCF81" productItems={bestSales} />
       </div>
 
       <section className="bg-light">

@@ -30,7 +30,7 @@ import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
-import sofaSlide from "../Images/car-holder.jpg";
+import holderSlide from "../Images/phone-holder.jpeg";
 import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [
@@ -38,7 +38,7 @@ export const SliderData = [
       id: 1,
       title: "50% Off For Your First Shopping",
       desc: "Unbeatable deals on your favorite mobile accessories! Shop now for attractive and effective mobile gadgets and receive a 50% discount on your first purchase.",
-      cover: sofaSlide,
+      cover: holderSlide,
   },
   {
       id: 2,
@@ -62,10 +62,11 @@ export const SliderData = [
 
 export const serviceData = [
   {
-    icon: <ion-icon name="car"></ion-icon>,
+    icon: <ion-icon name="add-circle-outline"></ion-icon>,
     title: "PTA Approved",
     subtitle: "Mobile Phone",
     bg: "#fdefe6",
+    
   },
   {
     icon: <ion-icon name="card"></ion-icon>,

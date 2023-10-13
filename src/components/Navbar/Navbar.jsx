@@ -122,67 +122,60 @@ const NavBar = () => {
           </div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end flex-grow-1 pe-3">
+            <Nav.Item>
+                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
+                  <img src="https://static.priceoye.pk/images/home/mobiles.svg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Mobiles</span>
+                </Link>
+              </Nav.Item>
               <Nav.Item>
                 <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Home</span>
+                  <img src="https://images.mobilefun.co.uk/graphics/60pixelc/15832.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Cases</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Link aria-label="Go to Featured products Page" className="navbar-link row" to="/featured products" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Products</span>
+                  <img src="https://images.mobilefun.co.uk/graphics/60pixelc/16290.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Screen Protectors</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Link aria-label="Go to All products Page" className="navbar-link row" to="/all products" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Products</span>
+                  <img src="https://images.mobilefun.co.uk/graphics/60pixelc/16819.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Car Phone Holders</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Link aria-label="Go to Contact Us Page" className="navbar-link row" to="/contact us" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Contact</span>
+                  <img src="https://static.priceoye.pk/images/home/wireless-earbuds.svg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Wireless Earbuds</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Link aria-label="Go to About Us Page" className="navbar-link row" to="/about us" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">About</span>
+                  <img src="https://static.priceoye.pk/images/home/bluetooth-speakers.svg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Bluetooth Speakers</span>
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Link aria-label="Go to Cart Page" className="navbar-link row" to="/cart" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Cart</span>
+                  <img src="https://static.priceoye.pk/images/home/power-banks.svg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Power Banks</span>
                 </Link>
               </Nav.Item>
               <Nav.Item>
                 <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Home</span>
+                  <img src="https://static.priceoye.pk/images/home/smart-watches.svg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Smart Watches</span>
                 </Link>
               </Nav.Item>
 
-              <Nav.Item>
-                <Link aria-label="Go to Featured products Page" className="navbar-link row" to="/featured products" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Products</span>
-                </Link>
-              </Nav.Item>
-
-              <Nav.Item>
-                <Link aria-label="Go to All products Page" className="navbar-link row" to="/all products" onClick={() => setExpand(false)}>
-                  <img src="http://localhost:3000/static/media/car-holder.3dc9e70c3f3b0411c1ac.jpg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Products</span>
-                </Link>
-              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
