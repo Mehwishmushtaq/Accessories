@@ -38,7 +38,7 @@
 	.sideMenu {
 		position: fixed;
 		background-color: white;
-		z-index: 1050 !important;
+		z-index: 30 !important;
 		width: 280px;
 		height: 100vh;
 		top: 0;
