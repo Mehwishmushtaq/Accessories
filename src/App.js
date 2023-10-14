@@ -1,9 +1,11 @@
 import { useState, createContext, useEffect, lazy, Suspense } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
 import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
+import About from "./components/About/About";
+
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const Home = lazy(() => import("./pages/Home"))
@@ -63,6 +65,8 @@ function App() {
             <Route path='/shop' element={<Shop />} />
             <Route path='/shop/:id' element={<ProductDetails />} />
             <Route path='/cart' element={<Cart />} />
+            <Route path='/about' element={<About />} />
+
           </Routes>
           <Footer />
         </Router>

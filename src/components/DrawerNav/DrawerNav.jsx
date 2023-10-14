@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 import "./drawerNav.css";
 import { Link } from "react-router-dom";
 
@@ -21,7 +21,7 @@ const DrawerNav = () => {
          subRoutes: [
             {
                id: 0,
-               name: "Wireless Headphones",
+               name: "Wireless headphones",
                route: "/header-1/sub-menu-1"
             },
             {
@@ -30,7 +30,7 @@ const DrawerNav = () => {
                route: "/header-1/sub-menu-2"
             },
             {
-               id: 1,
+               id: 2,
                name: "Hand free",
                route: "/header-1/sub-menu-2"
             }
@@ -47,8 +47,14 @@ const DrawerNav = () => {
             },
             {
                id: 1,
-               name: "Type-c Data cable",
+               name: "Bluetooth Speakers",
                route: "/header-2/sub-menu-2"
+            },
+            // Add an "About Us" link
+            {
+               id: 2,
+               name: "About Us",
+               route: "/about"
             }
          ]
       },
@@ -84,13 +90,11 @@ const DrawerNav = () => {
                                           onClick={drawerHandler}
                                           key={subRoute.id}
                                        >
-                                          {/* <span>{subRoute.name}</span> */}
-                                          {
-                                             <Link href={subRoute.route}>
-                                                <h5>{subRoute.name}</h5>
-                                             </Link>
+                                          {/* Use a standard HTML anchor tag for opening in a new window/tab */}
+                                          <Link to={subRoute.route}>
+                                             <h5>{subRoute.name}</h5>
+                                          </Link>
 
-                                          }
                                        </div>
                                     ))}
                                  </div>

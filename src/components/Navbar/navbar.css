@@ -147,8 +147,8 @@
 
 .nav-link-label {
 	color: black;
-	font-size: 18px !important;
-	font-weight: 600;
+	font-size: 12px !important;
+	font-weight: 300;
 	display: flex;
 	justify-content: center;
 }
