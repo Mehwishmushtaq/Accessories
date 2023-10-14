@@ -60,7 +60,7 @@ const AboutPage = () => {
                     <img src="https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVtcGxveWVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
                     <h3>Hileri Keol</h3>
                     <div className="ratings">
-                        <FaStar />
+                        <FaStar/>
                         <FaStar />
                         <FaStar/>
                         <FaStar />
