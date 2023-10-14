@@ -62,7 +62,7 @@ const AboutPage = () => {
                     <div className="ratings">
                         <FaStar />
                         <FaStar />
-                        <FaStar />
+                        <FaStar/>
                         <FaStar />
                         <FaStar />
                     </div>
