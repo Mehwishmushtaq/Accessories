@@ -7,6 +7,7 @@ import { products } from "../utils/products";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import "../pages/productDetails.css";
+import Wrapper from '../components/wrapper/Wrapper';
 
 const ProductDetails = () => {
     const [listSelected, setListSelected] = useState("desc");
@@ -17,9 +18,10 @@ const ProductDetails = () => {
         const storedProduct = localStorage.getItem(`selectedProduct-${id}`);
         setSelectedProduct(JSON.parse(storedProduct));
     }
-    const [quantity, setQuantity] = useState(1);
+    // const [quantity, setQuantity] = useState(1);
+    const [count, setCount] = useState(1);
     const handleQuantityChange = (event) => {
-        setQuantity(parseInt(event.target.value));
+        setCount(parseInt(event.target.value));
     };
     const handelAdd = (selectedProduct, quantity) => {
         addToCart(selectedProduct, quantity);
@@ -29,6 +31,22 @@ const ProductDetails = () => {
         window.scrollTo(0, 0);
         setRelatedProducts(products.filter(item => item.category === selectedProduct?.category && item.id !== selectedProduct?.id));
     }, [selectedProduct])
+    function increment() {
+        //setCount(prevCount => prevCount+=1);
+        setCount(function (prevCount) {
+            return (prevCount += 1);
+        });
+    }
+
+    function decrement() {
+        setCount(function (prevCount) {
+            if (prevCount > 0) {
+                return (prevCount -= 1);
+            } else {
+                return (prevCount = 0);
+            }
+        });
+    }
     return (
         <Fragment>
             <Banner title={selectedProduct?.productName} productBgImg='https://priceoye.pk/assets/images/home/dk-banner-static.jpg' />
@@ -55,8 +73,14 @@ const ProductDetails = () => {
                                 <h4>Category: </h4><h5>{selectedProduct?.category}</h5>
                             </div>
                             <p>{selectedProduct?.shortDesc}</p>
-                            <input className="qty-input" type="number" placeholder="Qty" value={quantity} onChange={handleQuantityChange} />
-                            <button aria-label="Add" type="submit" className="add" onClick={() => handelAdd(selectedProduct, quantity)}>Add To Cart</button>
+
+                            <span className="qty-counter">
+                                <button className="incCart" onClick={increment}><i className="fa fa-solid fa-plus"></i>+</button>
+                                <input className="qty-input" type="number" placeholder="Qty" value={count} onChange={handleQuantityChange} />
+                                <button className="desCart" onClick={decrement}><i className="fa fa-solid fa-minus" />-</button>
+                            </span>
+
+                            <button aria-label="Add" type="submit" className="add" onClick={() => handelAdd(selectedProduct, count)}>Add To Cart</button>
                         </Col>
                     </Row>
                 </Container>
@@ -85,6 +109,7 @@ const ProductDetails = () => {
                     }
                 </Container>
             </section>
+            <Wrapper />
             <section className="related-products">
                 <Container>
                     <h3>You might also like</h3>

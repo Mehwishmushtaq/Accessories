@@ -1,10 +1,12 @@
 import { useContext, useEffect } from "react"
 import { DataContainer } from "../App"
 import { Col, Container, Row } from "react-bootstrap";
+import Wrapper from "../components/wrapper/Wrapper";
 
 const Cart = () => {
   const { CartItem, setCartItem, addToCart, decreaseQty, deleteProduct } = useContext(DataContainer);
-  const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.price, 0)
+  const subTotalPrice = CartItem.reduce((price, item) => price + item.qty * item.price, 0);
+  const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.price + 50, 0);
   useEffect(() => {
     window.scrollTo(0, 0);
     if (CartItem.length === 0) {
@@ -37,7 +39,7 @@ const Cart = () => {
                         </Col>
                         <Col xs={12} sm={3} className='cartControl'>
                           <button className='incCart' onClick={() => addToCart(item)}>
-                            <i className='fa-solid fa-plus'></i>
+                            <i className='fa fa-solid fa-plus'></i>
                           </button>
                           <button className='desCart' onClick={() => decreaseQty(item)}>
                             <i className='fa-solid fa-minus'></i>
@@ -57,13 +59,26 @@ const Cart = () => {
             <div className='cart-total'>
               <h2>Cart Summary</h2>
               <div className=' d_flex'>
+                <h4>Sub Total Price :</h4>
+                <h3>${subTotalPrice}.00</h3>
+                <h4>Standard Delivery Charges :</h4>
+                <h3>${subTotalPrice ? '50' : '00'}.0</h3>
+                <br />
                 <h4>Total Price :</h4>
-                <h3>${totalPrice}.00</h3>
+                <h3>${totalPrice}.0</h3>
               </div>
             </div>
           </Col>
+          <Col md={12}>
+            <div className='cart-next-btn'>
+              <button className="btn-cart">Continue Shopping</button>
+              <button className="btn-cart">Proceed To Checkout</button>
+            </div>
+
+          </Col>
         </Row>
       </Container>
+      <Wrapper />
     </section>
   )
 }

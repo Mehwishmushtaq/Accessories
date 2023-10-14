@@ -49,6 +49,12 @@ button {
 	background-color: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
 .heading {
 	display: flex;
 	align-items: center;
@@ -70,7 +76,7 @@ button {
 .homeSlide {
 	display: flex;
 	justify-content: center;
-	background-color: #58B19F;
+	background-color: #58b19f;
 	padding-bottom: 0 !important;
 }
 
@@ -144,12 +150,15 @@ button {
 .product-page .qty-input {
 	width: 80px;
 	height: 20px;
-	border: 1px solid black;
+	border: 1px solid #0f3460;
 	border-radius: 5px;
-	padding: 15px;
-	margin: 20px 0;
+	padding: 21px 15px;
+	margin: 20px 0px;
 	color: black;
 	font-size: 15px;
+}
+.product-page .qty-counter {
+	margin: 0px 15px;
 }
 
 .product-page button.add {
@@ -200,7 +209,7 @@ button {
 .cart-items .cart-total {
 	background-color: white;
 	padding: 20px;
-	height: 150px;
+	/* height: 150px; */
 	margin-bottom: 30px;
 }
 
@@ -222,6 +231,24 @@ button {
 	height: 100%;
 	max-width: 300px;
 	object-fit: contain;
+}
+
+.cart-next-btn {
+	display: flex;
+	width: 100%;
+	padding: 30px 3px;
+	justify-content: space-between;
+}
+
+.cart-next-btn .btn-cart {
+	border: 2px solid #0f3460;
+	padding: 10px 20px;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.cart-next-btn .btn-cart:hover {
+	background-color: #0f3460;
+	color: white;
 }
 
 @media (max-width: 767px) {
