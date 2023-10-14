@@ -6,7 +6,7 @@ const AboutPage = () => {
     return (
         <div className="about-page">
             <div className="about-banner">
-                <img src={bannerImage} alt="About Image banner" className="about-banner-image" />
+                <img src={bannerImage} alt="banner" className="about-banner-image" />
                 <div className="about-banner-text">
                     <h2>About Us</h2>
                 </div>
@@ -33,7 +33,7 @@ const AboutPage = () => {
             <h1 className="h1">Our Team</h1>
             <div className="card-container">
                 <div className="card">
-                    <img src="https://plus.unsplash.com/premium_photo-1661583945144-aa7583cb0542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZW1wbG95ZWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt='' />
+                    <img src="https://plus.unsplash.com/premium_photo-1661583945144-aa7583cb0542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZW1wbG95ZWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt='emp1' />
                     <h3>Hileri Keol</h3>
                     <div className="ratings">
                         <FaStar />
@@ -45,7 +45,7 @@ const AboutPage = () => {
                     <p>CEo & Founder At Company</p>
                 </div>
                 <div className="card">
-                    <img src="https://plus.unsplash.com/premium_photo-1677368598706-4fa4f345d579?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGVtcGxveWVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt='' />
+                    <img src="https://plus.unsplash.com/premium_photo-1677368598706-4fa4f345d579?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGVtcGxveWVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt='emp2' />
                     <h3>Hileri Keol</h3>
                     <div className="ratings">
                         <FaStar />
@@ -57,7 +57,7 @@ const AboutPage = () => {
                     <p>CEo & Founder At Company</p>
                 </div>
                 <div className="card">
-                    <img src="https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVtcGxveWVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
+                    <img src="https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVtcGxveWVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="emp3" />
                     <h3>Hileri Keol</h3>
                     <div className="ratings">
                         <FaStar/>
@@ -78,8 +78,8 @@ const AboutPage = () => {
                 </div>
                 {/* Social Media Icons */}
                 <div className="social-icons">
-                    <a href="#" target="_blank"><FaFacebook size={30} /></a>
-                    <a href="#" target="_blank"><FaInstagram size={30} /></a>
+                    <a href="/" target="_blank"><FaFacebook size={30} /></a>
+                    <a href="/" target="_blank"><FaInstagram size={30} /></a>
                 </div>
         </div>
     );
