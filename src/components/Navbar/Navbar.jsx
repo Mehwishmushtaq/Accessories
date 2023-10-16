@@ -125,12 +125,7 @@ const NavBar = () => {
           </div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end flex-grow-1 pe-3">
-            <Nav.Item>
-                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
-                  <img src="https://static.priceoye.pk/images/home/mobiles.svg" className="nav-img" alt='' />
-                  <span className="nav-link-label">Mobiles</span>
-                </Link>
-              </Nav.Item>
+            
               <Nav.Item>
                 <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
                   <img src="https://images.mobilefun.co.uk/graphics/60pixelc/15832.jpg" className="nav-img" alt='' />
@@ -176,6 +171,12 @@ const NavBar = () => {
                 <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
                   <img src="https://static.priceoye.pk/images/home/smart-watches.svg" className="nav-img" alt='' />
                   <span className="nav-link-label">Smart Watches</span>
+                </Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link aria-label="Go to Home Page" className="navbar-link row" to="/" onClick={() => setExpand(false)}>
+                  <img src="https://smartphone-accessories.co.uk/media/catalog/product/cache/6fb59696926e57b0d8e75848f7fd4e44/a/p/apple-tag-pink-1.jpg" className="nav-img" alt='' />
+                  <span className="nav-link-label">Air Tag Accessories</span>
                 </Link>
               </Nav.Item>
 
