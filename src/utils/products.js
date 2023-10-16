@@ -1,3 +1,4 @@
+
 import productImg01 from "../Images/apple-watch-fitbit.jpg";
 import productImg02 from "../Images/Olixar-navy.jpg";
 import productImg03 from "../Images/sounds-wireless-onAir.jpg";
@@ -62,7 +63,7 @@ export const SliderData = [
 
 export const serviceData = [
   {
-    icon: <ion-icon name="add-circle-outline"></ion-icon>,
+    icon: <ion-icon name="FcApproval"></ion-icon>,
     title: "PTA Approved",
     subtitle: "Mobile Phone",
     bg: "#fdefe6",

@@ -55,6 +55,11 @@ const DrawerNav = () => {
                id: 2,
                name: "About Us",
                route: "/about"
+            },
+            {
+               id: 3,
+               name: "FAQS",
+               route: "/faqs"
             }
          ]
       },

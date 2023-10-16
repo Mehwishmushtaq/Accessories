@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css"; // Import your CSS file for styling
-import bannerImage from "../../Images/about-banner.jpg"; // Import your banner image (replace with your image file)
-import { FaFacebook, FaInstagram, FaStar } from "react-icons/fa"; // Import the icons
+import "./About.css"; // Importing CSS file for styling
+import bannerImage from "../../Images/about-banner.jpg"; // Importing banner image
+import { FaFacebook, FaInstagram, FaStar, FaTwitter, FaGoogle } from "react-icons/fa"; // Importing the icons
 const AboutPage = () => {
     return (
         <div className="about-page">
@@ -60,9 +60,9 @@ const AboutPage = () => {
                     <img src="https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGVtcGxveWVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="emp3" />
                     <h3>Hileri Keol</h3>
                     <div className="ratings">
-                        <FaStar/>
                         <FaStar />
-                        <FaStar/>
+                        <FaStar />
+                        <FaStar />
                         <FaStar />
                         <FaStar />
                     </div>
@@ -70,17 +70,18 @@ const AboutPage = () => {
                 </div>
 
             </div>
-               {/* Email Us Placeholder */}
-               <div className="email-us">
-                    <h2>Email Us</h2>
-                    <input type="text" placeholder="Your Email" />
-                    <button>Subscribe</button>
-                </div>
-                {/* Social Media Icons */}
-                <div className="social-icons">
-                    <a href="/" target="_blank"><FaFacebook size={30} /></a>
-                    <a href="/" target="_blank"><FaInstagram size={30} /></a>
-                </div>
+            {/* Email Us Placeholder */}
+            <div className="email-us">
+                <h2>Email Us</h2>
+                <input type="text" id="email-input" name="email" placeholder="Enter your email" />
+            </div>
+            <div className="social-icons">
+                <button>Subscribe</button>
+                <a href="/" target="_blank"><FaFacebook size={30} /></a>
+                <a1 href="/" target="_blank"><FaInstagram size={30} /></a1>
+                <a href="/" target="_blank"><FaTwitter size={30} /></a>
+                <a2 href="/" target="_blank"><FaGoogle size={30} /></a2>
+            </div>
         </div>
     );
 
