@@ -31,7 +31,7 @@ import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
-import holderSlide from "../Images/phone-holder.jpeg";
+import holderSlide from "../Images/phone-holder.jpg";
 import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [

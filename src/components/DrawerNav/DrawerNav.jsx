@@ -17,47 +17,52 @@ const DrawerNav = () => {
    const menuElements = [
       {
          id: 0,
-         name: "Headphones",
+         name: "CATEGORIES",
          subRoutes: [
             {
                id: 0,
                name: "Wireless headphones",
-               route: "/header-1/sub-menu-1"
+               route: "/shop"
             },
             {
                id: 1,
                name: "Earbuds",
-               route: "/header-1/sub-menu-2"
+               route: "/shop/08"
             },
             {
                id: 2,
                name: "Hand free",
-               route: "/header-1/sub-menu-2"
-            }
-         ]
-      },
-      {
-         id: 1,
-         name: "Electronics",
-         subRoutes: [
+               route: "/shop/23"
+            },
             {
-               id: 0,
+               id: 3,
                name: "Data Cable",
                route: "/header-2/sub-menu-1"
             },
             {
-               id: 1,
+               id: 4,
                name: "Bluetooth Speakers",
                route: "/header-2/sub-menu-2"
             },
+         ]
+      },
+      {
+         id: 0,
+         name: "MAIN NAVIGATION",
+         subRoutes: [
             // Add an "About Us" link
             {
-               id: 2,
+               id: 0,
                name: "About Us",
                route: "/about"
             },
             {
-               id: 3,
+               id: 1,
+               name: "Contact Us",
+               route: "/contact"
+            },
+            {
+               id: 2,
                name: "FAQS",
                route: "/faqs"
             }
