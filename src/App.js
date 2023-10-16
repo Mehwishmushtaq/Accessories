@@ -5,6 +5,7 @@ import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 import About from "./components/About/About";
+import FAQS from "./components/FAQS/FAQS";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -66,6 +67,7 @@ function App() {
             <Route path='/shop/:id' element={<ProductDetails />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/about' element={<About />} />
+            <Route path='/faqs' element={<FAQS />} />
 
           </Routes>
           <Footer />
