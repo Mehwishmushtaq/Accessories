@@ -1,0 +1,92 @@
+/* Blogs Container */
+.blogs-container {
+    padding: 20px;
+  }
+  .animate-heading {
+    animation: slide-in 2s ease-in-out; /* You can adjust the duration and timing function */
+    padding-left: 25%;
+    background-color: #bdc3c7;
+    color: #2d3436;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
+  /* Blog Heading */
+  .blogs-heading {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 0 20px;
+  }
+  
+  /* Grid Container for Cards */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 4fr)); /* Decreased the card width */
+    gap: 20px;
+    /* height:min-content; */
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  /* Blog Card */
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  /* Blog Title */
+  .blog-title {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  /* Blog Meta (Author and Date) */
+  .blog-meta {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 10px 0;
+  }
+  
+  /* Blog Content */
+  .blog-content {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Blog Image Container */
+  .blog-image-container {
+    text-align: center;
+    margin-bottom: 10px;
+    flex: 1;
+  }
+  
+  /* Blog Image */
+  .blog-image {
+    max-width: 80%;
+    height: 150px;
+    border-radius: 5px;
+  }
+  

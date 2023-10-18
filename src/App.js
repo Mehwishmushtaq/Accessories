@@ -6,6 +6,8 @@ import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 import About from "./components/About/About";
 import FAQS from "./components/FAQS/FAQS";
+import Policy from "./components/Policy/Policy"
+import Blogs from "./components/Blogs/Blogs"
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -70,6 +72,8 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/faqs' element={<FAQS />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/policy' element={<Policy />} />
+            <Route path='/blogs' element={<Blogs />} />
 
           </Routes>
           <Footer />

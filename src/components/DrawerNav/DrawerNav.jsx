@@ -58,14 +58,24 @@ const DrawerNav = () => {
             },
             {
                id: 1,
+               name: "Blogs",
+               route: "/blogs"
+            },
+            {
+               id: 2,
                name: "Contact Us",
                route: "/contact"
             },
             {
-               id: 2,
-               name: "FAQS",
+               id: 3,
+               name: "Privacy Policy",
+               route: "/policy"
+            },
+            {
+               id: 4,
+               name: "FAQ's",
                route: "/faqs"
-            }
+            },
          ]
       },
    ];

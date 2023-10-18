@@ -58,7 +58,7 @@
 /* Follow Us Container CSS */
 /* FAQs.css */
 .follow-us-container {
-  display: block;
+  display: flex;
   align-items: center;
   margin: 20px 150px;
 }
@@ -69,7 +69,6 @@
   margin-right: 10px;
   display: inline-block;
   color: darkslategray;
-  margin-top: 20px;
 }
 
 .social-icons {

@@ -1,22 +1,22 @@
 
-import productImg01 from "../Images/apple-watch-fitbit.jpg";
-import productImg02 from "../Images/Olixar-navy.jpg";
-import productImg03 from "../Images/sounds-wireless-onAir.jpg";
+import productImg01 from "../Images/protector1.jpg";
+import productImg02 from "../Images/earbud1.jpg";
+import productImg03 from "../Images/protector2.jpg";
 
-import productImg04 from "../Images/universal-tablet-clamp.jpg";
-import productImg05 from "../Images/apple-watch-fitbit.jpg";
-import productImg06 from "../Images/apple-watch-fitbit.jpg";
-import productImg007 from "../Images/apple-watch-fitbit.jpg";
+import productImg04 from "../Images/tags-smoke.jpg";
+import productImg05 from "../Images/holder1.webp";
+import productImg06 from "../Images/bluetoothspeaker1.png";
+import productImg007 from "../Images/powerbank.webp";
 
 import productImg07 from "../Images/Olixar-navy.jpg";
 import productImg08 from "../Images/wireless-earbuds.jpg";
 import productImg09 from "../Images/maxlife-lighting.jpg";
 import productImg10 from "../Images/wireless-earbuds.jpg";
 
-import phone01 from "../Images/phone-01.jpg";
-import phone02 from "../Images/phone-02.jpg";
-import phone03 from "../Images/phone-03.png";
-import phone04 from "../Images/phone-04.jpg";
+import appleCase1 from "../Images/applecase.jpg";
+import blueToothSpeaker from "../Images/bluetoothspeaker2.webp";
+import appleCase from "../Images/applecase.jpg";
+import galaxyCase from "../Images/galaxyCases.jpg";
 import phone05 from "../Images/phone-05.jpg";
 import phone06 from "../Images/phone-06.jpg";
 import phone08 from "../Images/phone-08.png";
@@ -31,15 +31,15 @@ import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
-import holderSlide from "../Images/phone-holder.jpg";
-import watchSlide from "../Images/watch-07.png";
+import caseSlide from "../Images/phone-case.png";
+import holderSlide from "../Images/holder.webp";
 
 export const SliderData = [
   {
       id: 1,
       title: "50% Off For Your First Shopping",
       desc: "Unbeatable deals on your favorite mobile accessories! Shop now for attractive and effective mobile gadgets and receive a 50% discount on your first purchase.",
-      cover: holderSlide,
+      cover: caseSlide,
   },
   {
       id: 2,
@@ -57,18 +57,12 @@ export const SliderData = [
       id: 4,
       title: "Must-Have Mobile Accessories",
       desc: "Discover a handpicked range of essential mobile accessories made to improve your daily smartphone experience.",
-      cover: watchSlide,
+      cover: holderSlide,
   },
 ];
 
 export const serviceData = [
-  {
-    icon: <ion-icon name="FcApproval"></ion-icon>,
-    title: "PTA Approved",
-    subtitle: "Mobile Phone",
-    bg: "#fdefe6",
-    
-  },
+ 
   {
     icon: <ion-icon name="card"></ion-icon>,
     title: "1 Year",
@@ -84,15 +78,22 @@ export const serviceData = [
   {
     icon: <ion-icon name="headset"></ion-icon>,
     title: "Free Delivery",
-    subtitle: "All Over Pakistan",
+    subtitle: "All Over UK",
     bg: "#d6e5fb",
+  },
+   {
+    icon: <ion-icon name="FcApproval"></ion-icon>,
+    title: "Quality Accessories",
+    subtitle: "Guaranteed Satisfaction",
+    bg: "#fdefe6",
+    
   },
 ];
 
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Apple Watch fitbit ",
+    productName: "Samsung Protector ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -111,7 +112,7 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Samsung Silicone Cover",
+    productName: "Samsung Wireless Earbuds",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -180,8 +181,8 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
-    imgUrl: phone03,
+    productName: "Bluetooth Speaker",
+    imgUrl: productImg06,
     category: "mobile",
     price: 599,
     discount:10,
@@ -203,8 +204,8 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
-    imgUrl: phone04,
+    productName: "Galaxy Power Bank",
+    imgUrl: productImg007,
     category: "mobile",
     price: 799,
     discount:5,
@@ -226,8 +227,8 @@ export const discoutProducts = [
   },
   {
     id: "01",
-    productName: "Apple Watch fitbit ",
-    imgUrl: productImg01,
+    productName: "Apple Phone Case",
+    imgUrl: appleCase1,
     category: "sofa",
     price: 193,
     discount:30,
@@ -245,7 +246,7 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Smartphone Clamp Holder ",
+    productName: "Apple Air Tag ",
     imgUrl: productImg04,
     category: "sofa",
     price: 253,
@@ -267,8 +268,8 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Smartphone Clamp Holder ",
-    imgUrl: productImg04,
+    productName: "Vivo Bluetooth Speaker",
+    imgUrl: blueToothSpeaker,
     category: "sofa",
     price: 253,
     shortDesc:
@@ -287,6 +288,26 @@ export const discoutProducts = [
     ],
     avgRating: 4.7,
   },
+  {
+    id: "01",
+    productName: " Protector ",
+    imgUrl: productImg01,
+    category: "sofa",
+    price: 193,
+    discount:30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+
 
 
 
@@ -295,7 +316,7 @@ export const discoutProducts = [
 export const products = [
   {
     id: "01",
-    productName: "Wireless On-Ear Headphones",
+    productName: "Samsung Screen Protector",
     imgUrl: productImg03,
     category: "sofa",
     price: 193,
@@ -314,7 +335,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Smartphone Clamp Holder ",
+    productName: "Apple Air Tag",
     imgUrl: productImg04,
     category: "sofa",
     price: 253,
@@ -337,7 +358,7 @@ export const products = [
 
   {
     id: "03",
-    productName: "Wireless On-Ear Headphones",
+    productName: "Apple Screen Protector",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -359,8 +380,8 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Samsung Silicone Cover",
-    imgUrl: productImg02,
+    productName: "Samsung Blutooth Speaker",
+    imgUrl: blueToothSpeaker,
     category: "sofa",
     price: 253,
     shortDesc:
@@ -381,7 +402,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Wireless On-Ear Headphones",
+    productName: "Air Tag",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -404,7 +425,7 @@ export const products = [
 
   {
     id: "05",
-    productName: "Apple Watch Fitbit",
+    productName: "Car Phone Holder",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -427,7 +448,7 @@ export const products = [
 
   {
     id: "06",
-    productName: "Apple Watch Fitbit",
+    productName: "Bluetooth Speaker",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -449,7 +470,7 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Apple Watch Fitbit",
+    productName: "Power Bank",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
@@ -472,7 +493,7 @@ export const products = [
 
   {
     id: "27",
-    productName: "Apple Watch Fitbit",
+    productName: "Apple Power Bank",
     imgUrl: productImg007,
     category: "sofa",
     price: 173,
@@ -492,6 +513,45 @@ export const products = [
     ],
     avgRating: 4.7,
   },
+  {
+    id: "01",
+    productName: "Samsung Protector ",
+    imgUrl: productImg01,
+    category: "sofa",
+    price: 193,
+    discount:30,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.7,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  {
+    id: "02",
+    productName: "Samsung Wireless Earbuds",
+    imgUrl: productImg02,
+    category: "sofa",
+    price: 253,
+    discount:20,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.5,
+  },
+  
 
   {
     id: "08",
@@ -542,7 +602,7 @@ export const products = [
   {
     id: "10",
     productName: "Apple iPhone 12 Pro",
-    imgUrl: phone01,
+    imgUrl: appleCase1,
     category: "mobile",
     price: 799,
     shortDesc:
@@ -586,7 +646,7 @@ export const products = [
   {
     id: "11",
     productName: "Apple iPhone 12 Max",
-    imgUrl: phone02,
+    imgUrl: blueToothSpeaker,
     category: "mobile",
     price: 799,
     shortDesc:
@@ -608,8 +668,8 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
-    imgUrl: phone03,
+    productName: "Apple Phone Case",
+    imgUrl: appleCase,
     category: "mobile",
     price: 599,
     shortDesc:
@@ -631,8 +691,8 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
-    imgUrl: phone04,
+    productName: "Galaxy Phone Case",
+    imgUrl: galaxyCase,
     category: "mobile",
     price: 799,
     shortDesc:
@@ -654,7 +714,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Apple 13 Pro Case",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -677,7 +737,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Samsung Galaxy S22 Case",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
