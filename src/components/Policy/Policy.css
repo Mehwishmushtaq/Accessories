@@ -1,0 +1,61 @@
+/* Policy.css */
+
+/* Container for the entire privacy policy */
+.privacy-policy-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Title styling */
+  .privacy-policy-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Privacy policy items styling */
+  .privacy-policy-items {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Individual policy item title styling */
+  .policy-item-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Individual policy item content styling */
+  .policy-item-content {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style links within paragraphs to make them noticeable */
+  .policy-item-content a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Style links on hover for emphasis */
+  .policy-item-content a:hover {
+    color: #0056b3;
+  }
+  
+  /* Add spacing between paragraphs for better readability */
+  .policy-item-content + .policy-item-content {
+    margin-top: 15px;
+  }
+  

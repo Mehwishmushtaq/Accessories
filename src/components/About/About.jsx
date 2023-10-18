@@ -1,15 +1,15 @@
 import React from "react";
 import "./About.css"; // Importing CSS file for styling
-import bannerImage from "../../Images/about-banner.jpg"; // Importing banner image
+import bannerImage from "../../Images/dk-banner-static.jpeg"; // Importing banner image
 import { FaFacebook, FaInstagram, FaStar, FaTwitter, FaGoogle } from "react-icons/fa"; // Importing the icons
 const AboutPage = () => {
     return (
         <div className="about-page">
             <div className="about-banner">
                 <img src={bannerImage} alt="banner" className="about-banner-image" />
-                <div className="about-banner-text">
+                {/* <div className="about-banner-text">
                     <h2>About Us</h2>
-                </div>
+                </div> */}
             </div>
             <h1 className="h1">About Mobile Accessories</h1>
 
@@ -68,7 +68,6 @@ const AboutPage = () => {
                     </div>
                     <p>CEo & Founder At Company</p>
                 </div>
-
             </div>
             {/* Email Us Placeholder */}
             <div className="email-us">
@@ -83,6 +82,7 @@ const AboutPage = () => {
                 <a2 href="/" target="_blank"><FaGoogle size={30} /></a2>
             </div>
         </div>
+        
     );
 
 };

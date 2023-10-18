@@ -26,7 +26,7 @@ const Home = () => {
         <Section title="New Arrivals" bgColor="#BDC581" productItems={newArrivalData} addToCart={addToCart} />
       </div>
 
-      <Banner productBgImg='https://priceoye.pk/assets/images/home/dk-banner-static.jpg' />
+      <Banner productBgImg='https://shopon.pk/images/blog/39/Mobile-acces.jpg' />
 
       <div>
         <Section title="Best Sales" bgColor="#BDCF81" productItems={bestSales} addToCart={addToCart} />

@@ -19,7 +19,7 @@ const Shop = () => {
 
     return (
         <Fragment>
-            <Banner title="product" productBgImg='https://priceoye.pk/assets/images/home/dk-banner-static.jpg' /> {/* Include the Banner component here */}
+            <Banner title="product" productBgImg='https://www.ethingzz.com/storage/app/public/category_images/5GpO7KBFQVnloEQ1CVKCvGX1qvxtsgTPo25Bph8m.jpeg' /> {/* Include the Banner component here */}
 
             <section className="filter-bar" >
                 <Container className="filter-bar-container">

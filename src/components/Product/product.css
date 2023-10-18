@@ -23,7 +23,8 @@
 	border-radius: 8px;
 	box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
 	margin: 10px;
-	background-color:#dfe6e9;
+	/* background-color:#dfe6e9; */
+	background-color: white;
 }
 
 .product h3 {

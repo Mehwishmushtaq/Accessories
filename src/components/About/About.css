@@ -18,7 +18,7 @@
 .about-banner-image {
   width: 100%;
   /* Adjust the image width as needed */
-  max-height: 60vh;
+  max-height: 70vh;
   display: block;
   border: 1px solid #ddd;
   /* Adding a border to the image */
@@ -50,22 +50,22 @@
 
 .about-banner-text h2 {
   font-size: 24px;
-  margin: 0;
+  margin: 20px;
   font-weight: 500;
 }
 
 .about-content {
   text-align: left; /* Center the content text horizontally */
   justify-content: center;
-  background:  #16a085; /* Set a white background for the content */
+  background: #bdc3c7; /* Set a white background for the content */
   padding: 20px 0; /* Equal padding on top and bottom, 0 on right and left */
   border: 1px solid #ddd; /* Adding a border around the content */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
   border-radius: 10px;
-  width: 120vh;
-  margin-left: 200px;
+  width: 200vh;
+  margin-left: 10px;
   font-weight: 500;
-  color: #ddd;
+  color:#2c3e50;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -125,14 +125,15 @@
 
 /* Style the "Email Us" title */
 .email-us {
-  display: flex;
+  display:flex;
   align-items: center;
-  margin-left: 80%;
+  margin-left: 30%;
+  width: fit-content;
 }
 
 .email-us h2 {
   font-size: 20px;
-  margin: 0;
+  margin-right: 5px;
   margin-bottom: 10px;
   color:#30336b;
 }
@@ -142,7 +143,7 @@
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -159,13 +160,12 @@
   background:#30336b;
   color: #fff;
   border: none;
-  padding: 5px 15px;
+  padding: 5px 15px ;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
   margin: 5px; /* Add margin for spacing */
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-right: 50px;
 }
 
 .social-icons a {

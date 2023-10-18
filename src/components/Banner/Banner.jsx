@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import productBg from "../../Images/banner-img.avif";
+import productBg from "../../Images/dk-banner-static.jpeg";
 import "./banner.css";
 const Banner = ({ title, productBgImg }) => {
     return (
